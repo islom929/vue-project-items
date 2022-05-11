@@ -8,3 +8,11 @@ module.exports = {
     ? '/vue-project-items/'
     : '/'
 }
+
+module.exports = {
+  pwa: {
+      workboxOptions: {
+        exclude: [/_redirects/]
+      }
+    }
+}
