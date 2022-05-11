@@ -68,6 +68,11 @@
     object-fit: cover;
   }
   h2 {
+      width: 300px;
+      height: 42px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     text-align: center;
     color: #657595;
   }
